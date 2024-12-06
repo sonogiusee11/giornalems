@@ -24,7 +24,7 @@ L’obiettivo principale del **Giornalino M.S** è:
 ## 🚀 Come Accedere al Sito
 
 Visita il sito web direttamente qui:  
-👉 **[Giornalino M.S](https://sonogiusee11.github.io/giornalino-M.S/)**
+👉 **[Giornalino M.S](https://sonogiusee11.github.io/giornalems/)**
 
 ## 📅 Aggiornamenti
 
