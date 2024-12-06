@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dettagli Articolo</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- Menu fisso in alto -->
+    <header>
+        <div class="logo">Giornalino</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#news">Notizie</a></li>
+                <li><a href="index.html#about">Chi Siamo</a></li>
+                <li><a href="index.html#contact">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="article-details">
+            <!-- Immagine in basso a sinistra -->
+            <div class="article-image">
+                <img src="massimostanzione.jpeg " alt="Immagine dell'articolo">
+            </div>
+
+            <!-- Titolo sopra l'immagine e contenuto a destra -->
+            <div class="article-content">
+                <h1>Nuovo Giornale In Internet</h1>
+                <p>Immergiti nel mondo della vita scolastica con i nostri articoli dettagliati e coinvolgenti, pensati per offrire una panoramica completa su eventi, progetti e iniziative. Ogni articolo è scritto con cura per stimolare l'interesse di studenti curiosi, guidare i docenti nell'approfondimento di tematiche educative e mantenere i genitori informati su tutto ciò che accade nella comunità scolastica. Non perdere l'opportunità di restare sempre aggiornato su ogni novità della scuola.</p>
+                
+            </div>
+        </section>
+
+        <!-- Sezione commenti -->
+        <section class="comments-section">
+            <h2>Commenti</h2>
+            <div id="comments-container">
+                <!-- I commenti verranno aggiunti qui dinamicamente -->
+            </div>
+            <form id="commentForm">
+                <label for="nameInput">Nome:</label>
+                <input type="text" id="nameInput" placeholder="Inserisci il tuo nome" required>
+                <label for="commentInput">Aggiungi un commento:</label>
+                <textarea id="commentInput" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Giornalino Scolastico</p>
+    </footer>
+
+    <script src="comment.js"></script>
+</body>
+</html>
