@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #00bcd4;
+    padding: 1rem;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.news-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.news-card h3 {
+    font-size: 1.2rem;
+    color: #00bcd4;
+    margin-top: 10px;
+}
+
+.news-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.scopri-piu {
+    text-decoration: none;
+    color: #00bcd4;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #00bcd4;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .news-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .news-grid {
+        grid-template-columns: 1fr; /* 1 column for very small screens */
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dettagli Articolo</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- Menu fisso in alto -->
+    <header>
+        <div class="logo">Giornalino</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#news">Notizie</a></li>
+                <li><a href="index.html#about">Chi Siamo</a></li>
+                <li><a href="index.html#contact">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="article-details">
+            <!-- Immagine in basso a sinistra -->
+            <div class="article-image">
+                <img src="https://www.lanazione.it/image-service/view/acePublic/alias/contentid/OTEzMTM2MDctZTkxZS00/0/3ade7bf3f40f95e13e598d0745d47844-93986441.webp?q=1&w=360" alt="Immagine dell'articolo">
+            </div>
+
+            <!-- Titolo sopra l'immagine e contenuto a destra -->
+            <div class="article-content">
+                <h1>Bove giovane uomo.</h1>
+                <p>Che uno tutto il resto se lo immagina, ma anche no, ed Edoardo anche no per via della sua forza di volontà, dell’entusiasmo che non è solo giovanile, della consapevolezza che viceversa è più spessa dei suoi ventidue anni, e allora ributta tutto indietro e aspetta con fiducia e ottimismo, provando a pensare solo positivo. E in questo magari diventa perfino alleata la stanza (ovviamente singola) all’interno dell’Unità di Terapia Intensiva Cardiologica dove il centrocampista viola è stato trasferito nella giornata di mercoledì dalla terapia intensiva, altro segnale richiesto e sperato per incanalare il percorso di recupero nel modo migliore. Alleata per uno come lui equilibrato, centrato, maturo, desideroso di riprendersi quello che il destino gli stava togliendo o gli ha tolto, per uno come lui che per dire il giorno dopo del malore voleva “uscire e giocà”, che ha chiesto ai compagni e amici di andare in campo contro l’Empoli ma senza fare tante “sceneggiate” (ovviamente di vicinanza) nei suoi confronti e De Gea e gli altri gli hanno risposto con uno striscione colmo d’affetto. Alleata quella stanza per girare nei propri pensieri, sebbene Edoardo è facile immaginarlo tipo leone rinchiuso dove non deve stare. </p>
+                
+            </div>
+        </section>
+
+        <!-- Sezione commenti -->
+        <section class="comments-section">
+            <h2>Commenti</h2>
+            <div id="comments-container">
+                <!-- I commenti verranno aggiunti qui dinamicamente -->
+            </div>
+            <form id="commentForm">
+                <label for="nameInput">Nome:</label>
+                <input type="text" id="nameInput" placeholder="Inserisci il tuo nome" required>
+                <label for="commentInput">Aggiungi un commento:</label>
+                <textarea id="commentInput" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Giornalino Scolastico</p>
+    </footer>
+
+    <script src="comment.js"></script>
+</body>
+</html>
